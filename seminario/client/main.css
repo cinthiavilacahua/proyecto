@@ -1,1 +1,7 @@
 /* CSS declarations go here */
+#footer{
+	text-align: center;
+	background:#000;
+	color:#fff;
+	height: 100px;
+}
