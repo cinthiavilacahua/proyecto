@@ -1,8 +1,9 @@
+
 Router.configure({
 	layoutTemplate:"layout"
 });
 Router.route("/", function() {
-	this.render("home");
+	this.render("galeria");
 });
 Router.route("/chat", function() {
 	this.render("chat");
@@ -16,3 +17,8 @@ Router.route("/contactenos", function() {
 Router.route("/registrar", function() {
 	this.render("registrar");
 });
+Router.route("/galeria", function() {
+	this.render("galeria");
+});
+
+

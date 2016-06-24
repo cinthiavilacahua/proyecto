@@ -1,0 +1,20 @@
+<template name="galeria">
+		{{#if currentUser}}
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">					
+		  	  
+			    <h4>Subir imagenes</h4>
+                    {{> upload_bootstrap fileTypes='.jpg' multiple=true formData=specificFormData }}
+				
+				
+		    </div>
+		 </div>
+		 <div id="upload">
+			    <div id="imagenes">
+			    	<img src="{{URL}}" width="200px" />
+			    </div>
+			     
+		  </div>
+		   
+		{{/if}}	
+</template>

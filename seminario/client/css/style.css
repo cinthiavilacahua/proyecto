@@ -263,6 +263,12 @@ body{
 .banner{
 	background:url("../images/shadow.png") no-repeat 100% -2px;
 }
+.form{
+		float:center;
+}
+.formulario {
+	padding: 10px;
+}
 .banner-text{
 	float:left;
 	width:45%;

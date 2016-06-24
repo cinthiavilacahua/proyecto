@@ -5,3 +5,19 @@
 	color:#fff;
 	height: 100px;
 }
+#imagenes{
+	width: auto;
+	height: 500px;
+	border: dashed 5px #333333;
+	background: #99cccc;
+	padding: 5px;
+}
+#upload{
+	background:#666666;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}

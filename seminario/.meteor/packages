@@ -22,3 +22,17 @@ insecure                # Allow all DB writes from clients (for prototyping)
 iron:router
 twbs:bootstrap
 mizzao:jquery-ui
+ian:accounts-ui-bootstrap-3
+accounts-password
+aldeed:collection2
+dburles:collection-helpers
+tomi:upload-jquery
+tomi:upload-server
+accounts-google
+accounts-twitter
+
+cfs:filesystem
+cfs:standard-packages
+cfs:gridfs
+cfs:ui
+accounts-facebook
